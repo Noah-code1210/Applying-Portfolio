@@ -6,7 +6,7 @@ import ScrambleText from "../ScrambleText"
 import ParaWriting from "../ParaWriting"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-// editing
+
 
 import work1 from "../../assets/Images/work1.png"
 import work2 from "../../assets/Images/work2.png"
@@ -22,7 +22,6 @@ export default function Projects() {
   }
 
   useEffect(() => {
-    // Start animation when the component is in view
     if (inView && !hasAnimated) {
       controls.start("visible")
     }
@@ -33,8 +32,8 @@ export default function Projects() {
       client: "Online Library",
       year: "2025",
       img: work1,
-      title: "",
-      detail: "",
+      title: "Library",
+      detail: "Using React.js and other various technologies, I created an online library for users to shop for some of the highest rated books of 2024!",
     },
     {
       client: "NFT",
