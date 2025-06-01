@@ -9,14 +9,14 @@ import Resume from "./components/Resume"
 import Footer from "./components/Footer"
 
 function App() {
-  // async function initLocomotiveScroll() {
-  //   const LocomotiveScroll = (await import("locomotive-scroll")).default
-  //   new LocomotiveScroll()
-  // }
+  async function initLocomotiveScroll() {
+    const LocomotiveScroll = (await import("locomotive-scroll")).default
+    new LocomotiveScroll()
+  }
 
-  // useEffect(() => {
-  //   initLocomotiveScroll()
-  // }, [])
+  useEffect(() => {
+    initLocomotiveScroll()
+  }, [])
 
   return (
     <main>
