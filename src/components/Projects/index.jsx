@@ -30,24 +30,24 @@ export default function Projects() {
   const works = [
     {
       client: "Online Library",
-      year: "2025",
+      year: "2024",
       img: work1,
       title: "Library",
-      detail: "Using React.js and other various technologies, I created an online library for users to shop for some of the highest rated books of 2024!",
+      detail: "",
     },
     {
-      client: "NFT",
-      year: "2023",
+      client: "NFT Internship",
+      year: "2025",
       img: work2,
-      title: "Next generation Web Management System.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Ultraverse NFT",
+      detail: "",
     },
     {
-      client: "client name",
-      year: "2023",
+      client: "Skinstric A.I",
+      year: "2024",
       img: work3,
-      title: "Share your Life Stories. Generationally.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Skinstric A.I.",
+      detail: "",
     },
   ]
 
