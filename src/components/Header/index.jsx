@@ -69,13 +69,13 @@ export default function Header() {
 
       <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 0.5 }} className="header--top">
         <h3>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://github.com/Noah-code1210" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={0.5}>
               GITHUB
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="/" target={"_blank"} rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/noah-cole-87241b320/" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1}>
               LINKEDIN
             </ScrambleText>
