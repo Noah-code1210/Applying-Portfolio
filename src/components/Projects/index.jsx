@@ -6,6 +6,7 @@ import ScrambleText from "../ScrambleText"
 import ParaWriting from "../ParaWriting"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+// editing
 
 import work1 from "../../assets/Images/work1.png"
 import work2 from "../../assets/Images/work2.png"
