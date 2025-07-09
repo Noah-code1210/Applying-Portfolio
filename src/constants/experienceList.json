@@ -1,0 +1,24 @@
+[
+  {
+    "company": "Skinstric A.I.",
+    "role": "Frontend Developer",
+    "resps": [
+      "Architected real-time skin analysis platform using OpenAI Vision API and Next.js, achieving 98% detection accuracy across diverse skin conditions",
+      "Developed responsive UI with TailwindCSS and GSAP animations, implementing dynamic skincare recommendation cards with 60% improved engagement",
+      "Optimized performance using Next.js Server Components and Lottie animations, achieving sub-2-second analysis time for skin condition detection",
+      "Built custom animation system using GSAP timeline for seamless user experience during skin analysis processing, increasing user retention by 40%"
+    ],
+    "date": "Sep 2024 - April 2025"
+  },
+  {
+    "company": "Frontend Simplified",
+    "role": "Frontend Developer and Support Staff",
+    "resps": [
+      "Selected as peer mentor after achieving top 5% performance in cohort, providing debugging support and code reviews for 20+ students across React and Next.js projects.",
+      "Created and led workshops on modern frontend optimization techniques, helping students improve their portfolio project load times by an average of 50%.",
+      "Developed comprehensive learning resources for React component architecture and TypeScript, resulting in 70% of mentored students successfully implementing type-safe applications.",
+      "Built and shared reusable component library using ShadCN/UI, reducing development time for student projects by 40% and improving code consistency"
+    ],
+    "date": "Jan 2024 - Aug 2024"
+  }
+]
