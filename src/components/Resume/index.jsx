@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import "./style.css"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import ResumePNG from "../../assets/Images/Resume.png"
 
 // components
 import BackgroundLines from "../BackgroundLines"
@@ -75,7 +76,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/noah-cole-87241b320/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href={ResumePNG} target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
